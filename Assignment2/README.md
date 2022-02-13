@@ -1,3 +1,3 @@
 # 22S.CPE487.PBui.Assignment2_VHDL_Test_Bench
 Added VHDL model of a Moore Machine with testbench using examples provided by California State University Northridge's ASIC Design Lab.
-![GTKWave Screenshot](CPE487/Assignment2/mooretb.JPG)
+![GTKWave Screenshot](mooretb.JPG)
