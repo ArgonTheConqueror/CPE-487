@@ -26,7 +26,7 @@ Analogue audio needs to be encoded into a digital format to be stored, read, and
 
 However, there exist several competing formats for encoding digital audio, the most interesting being Direct Stream Digital (DSD), a format meant to replace and surpass the audio capabilities of the original CD. DSD employs a sigma-delta modulator to encode an analogue audio signal into a 1-bit stream, played at a much higher sampling frequency than standard PCM audio. The most common DSD frequency is DSD64, or 64 times 44.1kHz. There are claims that DSD sounds better than standard or even high-definition PCM audio, although usage of DSD has been limited due to the relative complexity of recording, encoding, processing, and playing DSD files relative to PCM.
 
-![A comparison of existing audio formats](high_resolution_audio.png)
+![A comparison of existing audio formats](High-resolution_audio.png)
 
 ### Objective:
 
