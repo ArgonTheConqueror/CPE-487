@@ -2,13 +2,9 @@
 
 ## IDEA 1: Gravity Simulator
 
-### Background:
-
-
-
 ### Objective:
 
-
+To modify the lab-provided files in this course to add a gravity-simulating feature, as well as collisions between objects.
 
 ### Methods:
 
@@ -43,8 +39,8 @@ It may be possible to decode the PDM file into a PCM file directly without an in
 ### Current Bottlenecks:
 
 - [x] Determine the general parametres of the project
-- [ ] Research PDM and PCM formats
-- [ ] Acquire a sample of a PDM file for processing
+- [x] Research PDM and PCM formats, especially the structure of a sigma-delta modulator
+- [x] Acquire a sample of a PDM file for processing
 - [ ] Determine the capabilities of the Nexys-7 board for signal decoding and encoding
 - [ ] Examine the steps necessary to connect the decoding stage, the analogue stage, and the encoding stage
 - [ ] Determine the structure of the DSD64 file, especially whether it contains an uncompressed 1-bit audio stream or not
