@@ -1,4 +1,9 @@
-module dff (
+//Objective: Use combinational logic towards a sequential application.
+//Methods: Split the desired machine into a combinational logic section, and a sequential logic section. The sequential logic will be formed using flip-flops, while the combinational logic will be cases.
+
+
+// D-flip flop implementation for this project
+module dff ( 
     input Clock, D, Reset,
     output reg Q );
     
@@ -9,9 +14,9 @@ module dff (
             else
                 Q = D;
         end
-endmodule
+endmodule 
 
-
+//Overall top-level structure of sequence detector
 module seq_detect(
     input in,
     input clk, rst,
@@ -25,6 +30,7 @@ module seq_detect(
     
 endmodule
 
+//Sequential logic composed of 3 D-flip flops to satisfy conditions for 8-bit memory
 module seq_logic (
     input [2:0] NextState,
     input clk,
@@ -44,6 +50,7 @@ dff bit2 ( .Clock( clk ),
         .Q( CurrentState[2]));
 endmodule
 
+//Combinatorial logic module to define Moore FSM
 module comb_logic(
     input [2:0] y, // current state
     input in,
